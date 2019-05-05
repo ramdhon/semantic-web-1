@@ -1,0 +1,197 @@
+.css-carousel {
+  max-height: 450px;
+}
+
+.css-cover {
+  object-fit: cover;
+}
+
+.css-modal { 
+  width: 100%;
+  height: 100%;
+}
+
+.css-h {
+  height: 450px;
+}
+
+.css-top {
+  object-position: 50% 0;
+}
+
+.css-bottom {
+  object-position: 50% 100%;
+}
+
+.css-logo {
+  font-family: 'Lobster', cursive;
+}
+
+.css-blank {
+  width: 100%;
+  height: 100px;
+}
+
+.css-uppercase {
+  text-transform: uppercase;
+}
+
+.css-imp {
+  font-weight: bold;
+  color: rgb(138, 83, 58);
+}
+
+.css-content-text {
+  margin-left: 1%;
+}
+
+.css-footer {
+  background-color: #343a40;
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.css-content-footer {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255,255,255,0.6);
+  font-weight: bold;
+}
+
+.css-social {
+  display: inline-block;
+}
+
+.css-social-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.css-gallery {
+  width: 100%;
+  height: 550px;
+  /* background-color: green; */
+  position: relative;
+}
+
+.css-gallery-1 {
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  position: absolute;
+  background-image: url("https://images.pexels.com/photos/64031/ataturk-sculpture-statue-shiny-64031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: top;
+}
+.css-gallery-2 {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  background-image: url("https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/9398/SITours/private-bosphorus-yacht-cruise-in-istanbul-535237.jpg");
+  background-position: top;
+}
+.css-gallery-3 {
+  top: 0;
+  right: 0;
+  transform: translate(0, 0);
+  position: absolute;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/76/Bosphorus_Bridge.jpg");
+  background-position: top;
+}
+.css-gallery-4 {
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  position: absolute;
+  background-image: url("http://bookturkeytours.com/images/travel/istanbul-blue-mosque-5-599x398.jpg");
+  background-position: top;
+}
+.css-gallery-5 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-image: url("https://www.needsomefun.net/wp-content/uploads/2015/08/31.jpg");
+  background-position: center;
+}
+.css-gallery-6 {
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  position: absolute;
+  background-image: url("https://iadsb.tmgrup.com.tr/321194/645/344/0/34/1000/566?u=http://i.tmgrup.com.tr/dailysabah/2016/07/26/1469481933291.jpg");
+  background-position: top;
+}
+.css-gallery-7 {
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 0);
+  position: absolute;
+  background-image: url("https://travelguide.michelin.com/sites/default/files/styles/poi_slideshow_big/public/images/travel_guide/NX-22406.jpg");
+  background-position: top;
+}
+.css-gallery-8 {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  background-image: url("https://www.tooistanbul.com/wp-content/uploads/2013/02/oktay-usta-urfa-kebap-tarifi-d9154c.jpg");
+  background-position: top; 
+}
+.css-gallery-9 {
+  bottom: 0;
+  right: 0;
+  transform: translate(0, 0);
+  position: absolute;
+  background-image: url("https://farm3.staticflickr.com/2015/2149969612_959b4ecb64_b.jpg");
+  background-position: top;
+}
+.css-gallery-set {
+  background-color: white;
+  background-size: cover;
+  width: 33.1%;
+  height: 33%;
+  box-sizing: border-box;
+  /* border: 3px solid black; */
+}
+.css-overlay {
+  width: 100%;
+  height: 100%;
+  color: rgba(138, 83, 58, 0);
+}
+.css-overlay:hover {
+  background-color: rgba(255,255,255,0.6);
+  color: rgba(138, 83, 58, 1);
+  cursor: pointer;
+}
+.css-overlay span {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .css-carousel {
+    max-height: 200px;
+  }
+  .css-h {
+    height: 200px;
+  }
+  .css-gallery {
+    height: 400px;
+  }
+  .css-social-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+}
